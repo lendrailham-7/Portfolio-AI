@@ -1,44 +1,30 @@
-import { siteData } from "@/data/site";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+import Chatbot from "@/components/Chatbot";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-950 text-white">
-      <section className="mx-auto max-w-5xl px-6 py-24">
-        <h1 className="text-5xl font-bold">
-          Halo, saya {siteData.name}
-        </h1>
+    <main className="min-h-screen">
+      <Navbar />
 
-        <p className="mt-4 text-xl text-slate-300">
-          {siteData.role}
-        </p>
+      <Hero />
 
-        <p className="mt-8 max-w-2xl text-slate-400">
-          {siteData.about}
-        </p>
+      <About />
 
-        <div className="mt-16">
-          <h2 className="text-3xl font-bold">
-            Project
-          </h2>
+      <Skills />
 
-          <div className="mt-8 grid gap-6 md:grid-cols-3">
-            {siteData.projects.map((project) => (
-              <div
-                key={project.title}
-                className="rounded-xl border border-slate-700 p-6"
-              >
-                <h3 className="text-xl font-semibold">
-                  {project.title}
-                </h3>
+      <Projects />
 
-                <p className="mt-3 text-slate-400">
-                  {project.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <Chatbot />
+
+      <Contact />
+
+      <Footer />
     </main>
   );
 }
