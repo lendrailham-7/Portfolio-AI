@@ -31,11 +31,14 @@ export default function Hero() {
         </p>
 
         <div className="mt-10 flex flex-wrap justify-center gap-4 lg:justify-start">
-          <button className="rounded-xl bg-linear-to-r from-amber-400 to-yellow-600 px-8 py-3 font-semibold text-white shadow-lg transition hover:scale-105">
+          <button  className="rounded-xl bg-linear-to-r from-amber-400 to-yellow-600 px-8 py-3 font-semibold text-white shadow-lg transition hover:scale-105">
             Lihat Project
           </button>
 
-          <button
+          <a
+            href="https://wa.me/6281572113813?text=Halo%20Kak%20Lendra,%20saya%20melihat%20portfolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi."
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-xl border px-8 py-3 transition hover:scale-105"
             style={{
               borderColor: "var(--border)",
@@ -43,7 +46,7 @@ export default function Hero() {
             }}
           >
             Hubungi Saya
-          </button>
+          </a>
         </div>
       </motion.div>
 

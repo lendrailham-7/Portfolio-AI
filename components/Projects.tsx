@@ -9,7 +9,7 @@ const projects = [
     description:
       "Website portfolio modern dengan dark/light mode dan integrasi AI chatbot.",
     tech: ["Next.js", "Tailwind", "TypeScript"],
-    github: "#",
+    github: "https://github.com/lendrailham-7/Portfolio-AI",
     demo: "#",
   },
   {
@@ -17,14 +17,6 @@ const projects = [
     description:
       "Bot WhatsApp berbasis Node.js dengan integrasi AI untuk menjawab pesan secara otomatis.",
     tech: ["Node.js", "Baileys", "Gemini"],
-    github: "#",
-    demo: "#",
-  },
-  {
-    title: "IoT Monitoring",
-    description:
-      "Sistem monitoring berbasis ESP8266/ESP32 untuk pengumpulan data sensor secara real-time.",
-    tech: ["ESP32", "Arduino", "IoT"],
     github: "#",
     demo: "#",
   },
