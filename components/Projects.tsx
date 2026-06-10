@@ -16,8 +16,8 @@ const projects = [
     title: "WhatsApp AI Bot",
     description:
       "Bot WhatsApp berbasis Node.js dengan integrasi AI untuk menjawab pesan secara otomatis.",
-    tech: ["Node.js", "Baileys", "Gemini"],
-    github: "#",
+    tech: ["Node.js", "Whatsapp-web-js", "Gemini", "Groq"],
+    github: "https://github.com/lendrailham-7/Bot-WhatsApp",
     demo: "#",
   },
 ];
