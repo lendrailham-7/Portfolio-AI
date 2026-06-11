@@ -20,7 +20,7 @@ export default function Hero() {
         <h1 className="mt-4 text-5xl font-bold leading-tight md:text-7xl">
           Halo, saya{" "}
           <span className="bg-linear-to-r from-amber-400 to-yellow-600 bg-clip-text text-transparent">
-            Lendra Ilham
+            Lendra Ilham Ramadan
           </span>
         </h1>
 
